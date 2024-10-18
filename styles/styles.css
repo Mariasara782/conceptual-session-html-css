@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.hero {
+    background-image: url("../Images/cow.jpg");
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+
+}
+
+.hero h1 {
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    padding-top: 60px;
+}
+
+.article {
+    width: 80%;
+    /* margin-left: auto; */
+    /* margin-right:auto; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 60px; */
+    /* text-align: justify; */
+    margin: 60px auto;
+    background-color: rgb(177, 206, 251);
+    padding: 60px;
+    border-width: 15px;
+    border-color: black;
+    border-style: groove;
+
+}
