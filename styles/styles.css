@@ -29,7 +29,7 @@
     /* margin-right:auto; */
     /* margin-top: 60px; */
     /* margin-bottom: 60px; */
-    /* text-align: justify; */
+    text-align: justify;
     margin: 60px auto;
     background-color: rgb(177, 206, 251);
     padding: 60px;
@@ -38,3 +38,29 @@
     border-style: groove;
 
 }
+
+.article h2 {
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px solid black;
+    border-width: 2px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.article p {
+    font-size: 25px;
+
+}
+
+.imp {
+    font-size: 2em;
+    /* em bolte bujahy j imp er parent tag er font size.so 2em means parent tag er font size er 2 gun.means 25px*2=50px.50px font size ekhn .imp er. */
+    background-color: plum;
+    width: 150px;
+    /* width likhe inline element e ta use korte chaile ta kaj kore na because etar default display inline daoa.inline kokhono width nite pare na.tai inline kono element ke width dite hole tar display change korte hobe.for example ekhane span er width dite giye first e kaj hoyni tai display inline-block kore kaj korano holo */
+    display: inline-block;
+}
+
